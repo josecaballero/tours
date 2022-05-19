@@ -34,7 +34,7 @@ function App() {
   }
   return (
     <main>
-      <Tours></Tours>
+      <Tours tours={tours}></Tours>
     </main>
   );
 }
